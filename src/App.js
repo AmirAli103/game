@@ -13,9 +13,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/authjoin" element={<AuthJoin />} />
-        <Route path="/auth" element={<Auth />} />
+        {/* <Route path="/" element={<HomePage />} /> */}
+        <Route path="/auth" element={<AuthJoin />} />
+        <Route path="/" element={<Auth />} />
         <Route path="/game" element={<Game />} />
         <Route path="/Voting" element={<Voting />} />
         <Route path="/Winner" element={<WinnerScreen />} />
